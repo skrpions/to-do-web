@@ -21,8 +21,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Project structure.
 
-To answer this question we use an unordered list:
-
 > - Core: Services, Models, Pipes Globals.
 > - Data:
 > - Routes: Modules.
@@ -38,7 +36,7 @@ To answer this question we use an unordered list:
 
 A list of technologies used within the project:
 
-- Angular Material: Version 2.34
+- Angular Material: Version 15.2.1
 - Nodejs: Version 18.14.1
 
 ## Installation
@@ -68,7 +66,7 @@ $ ng g m shared/angular-material --flat
 
 ---
 
-- Routes
+- Routes: Module
 
 ```
 $ ng g m routes --routing
@@ -151,7 +149,8 @@ Important: Assign aliases to routes.
 A list of frequently asked questions
 
 1. **How to share the web application on a local network?**
-   Execute:
+
+   - Execute:
 
 ```
 $ ng s --host=0.0.0.0 --port=4200 -o
